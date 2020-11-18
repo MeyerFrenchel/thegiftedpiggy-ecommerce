@@ -3,17 +3,16 @@ import {Switch, Route} from 'react-router-dom';
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
+import ShopPage from './pages/shop/shop.component';
 
-const CanitePage = () => (
-  <h1>CANITE PAGE</h1>
-)
+
 
 function App() {
   return (
     <div >
       <Switch>
         <Route exact path='/' component ={HomePage} />
-        <Route path='/canite' component={CanitePage} />
+        <Route path='/shop' component={ShopPage} />
         </Switch>  
     </div>
   );
