@@ -1,10 +1,15 @@
 .sign-in {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 30vh;
+    width: 40vh;
     display: flex;
     flex-direction: column;
 
     .title {
         margin: 10px 0;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
     }
 }

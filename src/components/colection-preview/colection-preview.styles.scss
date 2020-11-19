@@ -6,11 +6,20 @@
     .title {
       font-size: 28px;
       margin-bottom: 25px;
+      color: #c38dd2;
+      padding-bottom: 5px;
+      padding-left: 4px;
+      border-bottom:dashed 2px #c38dd2;
+      
+      border-left: solid 4px #c38dd2;
+      width: 15vh;
+
     }
   
     .preview {
       display: flex;
       justify-content: space-between;
+      
     }
   }
   
