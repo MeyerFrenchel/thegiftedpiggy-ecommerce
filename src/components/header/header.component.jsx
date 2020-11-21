@@ -10,13 +10,13 @@ import './header.styles.scss';
 const Header = ({ currentUser }) => (
     <div className='header'>
         <Link className='logo-container' to="/">
-            <img className='logo' src={Logo}/>
+            <img className='logo' src={Logo} alt='logo'/>
         </Link>
         <div className='motto-container'>
             <p className='motto'>“Yesterday is history , tomorrow is a mystery , but today is a <span className='gift'>gift</span> , which is why we call it the present.”</p>
         </div>
         <div className='options'>
-            <Link className='option' to='/shop'>
+            <Link className='option-shop' to='/shop'>
                 SHOP
             </Link>
             <Link className='option' to='/shop'>

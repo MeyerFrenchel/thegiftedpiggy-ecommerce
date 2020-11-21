@@ -40,7 +40,7 @@
     
 
     .options {
-      width: 50%;
+      width: 60%;
       height: 100%;
       display: flex;
       align-items: center;
@@ -54,6 +54,32 @@
         color: black;
         cursor: pointer;
       }
-    }
+      
+      .option-shop {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)}
+      .option-shop {
+         margin: 10px;
+         padding: 10px 20px;
+         text-align: center;
+         text-transform: uppercase;
+         transition: 0.5s;
+         background-size: 200% auto;
+         color: white;            
+         box-shadow: 0 0 20px #eee;
+         border-radius: 10px;
+         display: block;
+       }
+
+       .option-shop:hover {
+         background-position: right center; /* change the direction of the change here */
+         color: #fff;
+         text-decoration: none;
+         transform: translateY(-1px);
+       }
+       .option-shop:active {
+        transform: translateY(2px);
+        box-shadow: 0 0.5rem 1rem  #DD5E89;
+        
+       }
+   }
   }
   
