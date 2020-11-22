@@ -17,6 +17,8 @@ $dark-color: #f8049c;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
   
     &:hover {
       background-color:$light-color;
@@ -46,6 +48,28 @@ $dark-color: #f8049c;
       &:active {
         box-shadow: 0 0.5rem 1rem #357ae8;
         color: #ffce44;
+      }
+    }
+
+    &.inverted {
+      background-color:$light-color;
+      color: #f8049c;
+      border: 1px solid #f8049c;
+      
+
+      &:hover {
+        background-color: #f8049c;
+        color: $light-color;
+        transform: translateY(-2px);
+      }
+
+      &:active {
+        transform: translateY(2px);
+        box-shadow: 0 0.5rem 1rem rgba(248, 4, 156, 0.2);
+      }
+
+      &:focus {
+        outline: none;
       }
     }
   }
