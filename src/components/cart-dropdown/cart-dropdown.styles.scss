@@ -1,0 +1,42 @@
+.cart-dropdown {
+    position: absolute;
+    width: 240px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    background-color:#fcf1f1;
+    top: 120px;
+    right: 40px;
+    z-index: 5;
+
+    
+  
+    .cart-items {
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+      overflow: scroll;
+      
+    }
+
+    .cart-items::-webkit-scrollbar-thumb {
+      background-color:#c38dd2;    /* color of the scroll thumb */
+      border-radius: 20px;       /* roundness of the scroll thumb */
+      border: 3px solid#c38dd2;  /* creates padding around scroll thumb */
+    }
+    .cart-items::-webkit-scrollbar {
+      width: 8px;               /* width of the entire scrollbar */
+    }
+    .cart-items::-webkit-scrollbar-track {
+      background: #c38dd2;        /* color of the tracking area */
+    }
+  
+    button {
+      margin-top: auto;
+    }
+  }
+
+  
+  
