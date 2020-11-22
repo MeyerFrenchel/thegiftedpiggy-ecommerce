@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { connect } from 'react-redux';
 import { auth } from '../../firebase/firebase.utils';
 
 import Logo from '../../assets/img/THE GIFTED PIGGY.png';
@@ -39,4 +39,8 @@ const Header = ({ currentUser }) => (
     </div>
 );
 
-export default Header;
+const mapStateToProps = state => ({
+    currentUser: state.user.value
+});
+
+export default connect(mapStateToProps)(Header);
