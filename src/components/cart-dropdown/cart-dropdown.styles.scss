@@ -21,6 +21,11 @@
       
     }
 
+    .empty-message {
+      font-size: 20px;
+      margin: 50px auto;
+    }
+
     .cart-items::-webkit-scrollbar-thumb {
       background-color:#c38dd2;    /* color of the scroll thumb */
       border-radius: 20px;       /* roundness of the scroll thumb */
