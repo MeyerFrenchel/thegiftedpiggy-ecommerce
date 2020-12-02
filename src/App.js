@@ -14,6 +14,7 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import { setCurrentUser } from './Redux/user/user.actions';
 import { selectCurrentUser } from './Redux/user/user.selectors';
+import SocialIcons from './components/social/social.component';
 
 
 
@@ -66,7 +67,9 @@ class App extends React.Component {
           )
         }
       />
-        </Switch>  
+      
+        </Switch> 
+        <SocialIcons />
     </div>
   );
 }
