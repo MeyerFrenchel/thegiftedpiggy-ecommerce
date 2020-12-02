@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-    {
+const SHOP_DATA = {
+    brelocuri:{
                   id: 1,
                   title: 'Brelocuri',
                   routeName: 'brelocuri',
@@ -32,7 +32,7 @@ const SHOP_DATA = [
                     
                   ]
                 },
-                {
+        bratari:{
                   id: 2,
                   title: 'Brățări',
                   routeName: 'brățări',
@@ -58,7 +58,7 @@ const SHOP_DATA = [
                     
                   ]
                 },
-                {
+          cercei:{
                   id: 3,
                   title: 'Cercei',
                   routeName: 'cercei',
@@ -90,7 +90,7 @@ const SHOP_DATA = [
                     
                   ]
                 },
-                {
+          canite:{
                   id: 4,
                   title: 'Cănițe',
                   routeName: 'canite',
@@ -139,7 +139,7 @@ const SHOP_DATA = [
                     }
                   ]
                 },
-                {
+        tablouri:{
                   id: 5,
                   title: 'Tablouri',
                   routeName: 'tablouri',
@@ -159,6 +159,6 @@ const SHOP_DATA = [
                     
                   ]
                 }
-];
+              };
 
 export default SHOP_DATA;
