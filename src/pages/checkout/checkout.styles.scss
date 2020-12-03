@@ -36,5 +36,20 @@
       font-size: 25px;
       color:  #c38dd2;
     }
+
+    .buy-now {
+      border: 2px solid #f8049c;
+      border-radius: 70%;
+      padding: 1%;
+      font-size: 60px;
+      text-align: center;
+
+      .buy-text {
+        font-size: 40px;
+        font-weight: 700;
+        color: #f8049c;
+      }
+
+    }
   }
   

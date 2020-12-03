@@ -28,8 +28,24 @@ const SHOP_DATA = {
                       imageUrl: 'https://www.bakerross.co.uk/craft-ideas/wp-content/uploads/2019/04/GUP161-1.jpg',
                       price: 25
                     },
-                    
-                    
+                    {
+                      id: 5,
+                      name: 'Heart Trinkets',
+                      imageUrl: 'https://www.bakerross.co.uk/craft-ideas/wp-content/uploads/2019/01/GUP150-Heart-Key-Rings-Main-.jpg',
+                      price: 25
+                    },
+                    {
+                      id: 6,
+                      name: 'Snake Trinkets',
+                      imageUrl: 'https://www.bakerross.co.uk/craft-ideas/wp-content/uploads/2017/05/K032-snake-keyring-main.jpg',
+                      price: 25
+                    },
+                    {
+                      id: 7,
+                      name: 'Sweet Trinkets',
+                      imageUrl: 'https://brcontent.hobbycraft.co.uk/site/binaries/content/gallery/hobbycraft/ideas/2017/01/0500_hc_mothers_day_2017_012.jpg/0500_hc_mothers_day_2017_012.jpg/hobbycraft%3AIdeasHero',
+                      price: 25
+                    },                    
                   ]
                 },
         bratari:{
@@ -51,8 +67,20 @@ const SHOP_DATA = {
                     },
                     {
                       id: 12,
+                      name: 'Donut Bracelet',
+                      imageUrl: 'https://i.ebayimg.com/images/g/GEIAAOSwUrZdngqQ/s-l400.jpg',
+                      price: 90
+                    },
+                    {
+                      id: 13,
                       name: 'Flower Bracelet',
                       imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/61L9gxkcN8L._AC_UL1024_.jpg',
+                      price: 90
+                    },
+                    {
+                      id: 14,
+                      name: 'Violet Bracelet',
+                      imageUrl: 'https://dkhawaiian.com/3700-thickbox_default/light-purple-turquoise-fimo-flower-crystal-coconut-bracelet.jpg',
                       price: 90
                     }
                     
@@ -136,6 +164,36 @@ const SHOP_DATA = {
                       name: 'Harry Potter Mug',
                       imageUrl: 'https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/118463655_102414281592206_6592997337222499493_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=ATfvLylm8B0AX8BzRqv&_nc_ht=scontent.fias1-1.fna&oh=4cd4f991a844ab1d4379bd2a1660d2a4&oe=5FDB933A',
                       price: 80
+                    },
+                    {
+                      id: 30,
+                      name: 'Owl Mug',
+                      imageUrl: 'https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/118521287_103336774833290_5365830930655689494_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=XYmyPuAREtEAX8cjaaD&_nc_ht=scontent.fias1-1.fna&oh=2682e89bf5ff759b2bf2270f9db0c13b&oe=5FEF9A2C',
+                      price: 80
+                    },
+                    {
+                      id: 31,
+                      name: 'Flower-Girl Mug',
+                      imageUrl: 'https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/118403722_102414271592207_818235870609213471_o.jpg?_nc_cat=102&ccb=2&_nc_sid=730e14&_nc_ohc=18fuaVuFJhkAX9v8Otq&_nc_ht=scontent.fias1-1.fna&oh=ea2a41d464dd639cb869b4579e57d994&oe=5FED5849',
+                      price: 100
+                    },
+                    {
+                      id: 32,
+                      name: 'Teddy Mug',
+                      imageUrl: 'https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/118404545_102414191592215_8241324742608744203_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=xB62vSyzv5UAX8nvKxO&_nc_ht=scontent.fias1-1.fna&oh=5dc2f82d6d512f71a1c8ce7b0fb09373&oe=5FEE7CD1',
+                      price: 80
+                    },
+                    {
+                      id: 33,
+                      name: 'Piggy Mug',
+                      imageUrl: 'https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/118403910_102414154925552_2815579034229090256_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=8jJVdHNNCIwAX9JWorJ&_nc_ht=scontent.fias1-1.fna&oh=ab39a05bf4226f8abd494935323795cb&oe=5FECB9B0',
+                      price: 85
+                    },
+                    {
+                      id: 34,
+                      name: 'Personalised Mugs',
+                      imageUrl: 'https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/119126275_130788832088084_3357990549963580608_o.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_ohc=5OQO8EiCTAIAX8PXe4B&_nc_ht=scontent.fias1-1.fna&oh=31c59dab9485b50718d69a7e3201aac6&oe=5FECE63C',
+                      price: 160
                     }
                   ]
                 },
@@ -154,6 +212,30 @@ const SHOP_DATA = {
                       id: 31,
                       name: 'Tablou Wedding',
                       imageUrl: 'https://scontent.fias1-1.fna.fbcdn.net/v/t1.0-9/119450597_133356831831284_412072751112965002_o.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_ohc=Cfw8OFq--poAX_9u9GQ&_nc_ht=scontent.fias1-1.fna&oh=513f15466ab85d59880cc67017fe505a&oe=5FD8CF27',
+                      price: 100
+                    },
+                    {
+                      id: 32,
+                      name: 'Tablou Baby-Girl',
+                      imageUrl: 'https://i.pinimg.com/originals/b1/c7/dc/b1c7dcf8029c3f5fffbe85a2b68ad7d5.jpg',
+                      price: 250
+                    },
+                    {
+                      id: 33,
+                      name: 'Tablou New-Born',
+                      imageUrl: 'https://i.pinimg.com/736x/8b/b5/32/8bb532210e37fb714a7e26f7e7bb2e21.jpg',
+                      price: 150
+                    },
+                    {
+                      id: 34,
+                      name: 'Tablou Baby-Boy',
+                      imageUrl: 'https://i.pinimg.com/736x/e0/be/65/e0be6550e2899e70830c50cd6955804f.jpg',
+                      price: 250
+                    },
+                    {
+                      id: 35,
+                      name: 'Tablou Mariage',
+                      imageUrl: 'https://i.pinimg.com/originals/3f/01/dd/3f01dd3222b757630ba403f83c1c57aa.jpg',
                       price: 100
                     }
                     

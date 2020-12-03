@@ -1,5 +1,5 @@
 .social-icons {
-    width: 55%;
+    width: 63%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -7,6 +7,22 @@
 
     .fa-2x {
         color: #c38dd2;
+        padding-right: 18px;
+    }
+
+    .fa-facebook:hover {
+        color: #3b5998;
+    }
+
+    .fa-facebook-messenger:hover {
+        color: #00C6FF;
+    }
+    .fa-instagram:hover {
+        color: #3f729b;
+    }
+
+
+    h2 {
         padding-right: 18px;
     }
 }
