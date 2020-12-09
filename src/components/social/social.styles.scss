@@ -6,12 +6,16 @@
     justify-content: flex-end;
 
     @media only screen and (max-width : 520px) {
-        width: 100%;
-      }
+        width: 98%;
+    }
 
     .fa-2x {
         color: #c38dd2;
         padding-right: 18px;
+
+        @media only screen and (max-width : 520px) {
+            padding-right: 10px;
+        }
     }
 
     .fa-facebook:hover {
@@ -27,6 +31,12 @@
 
 
     h2 {
+        
         padding-right: 18px;
+
+        @media only screen and (max-width : 520px) {
+            padding-right: 1px;
+            font-size: 18px;
+        }
     }
 }

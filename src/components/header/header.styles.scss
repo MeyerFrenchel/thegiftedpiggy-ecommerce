@@ -81,7 +81,7 @@
       @media only screen and (max-width : 520px) {
         width: 25%;
         flex-direction: column;
-        font-size: 12px;
+        font-size: 16px;
       }
       
       
@@ -111,20 +111,27 @@
         color: white;            
         box-shadow: 0 0 20px #eee;
         border-radius: 10px;
-        display: block;      
+        display: block;
+
+        @media only screen and (max-width : 520px) {
+          margin: 1px;
+          padding: 5px 8px;
+        }
+              
         }
 
-       .option-shop:hover {
+      .option-shop:hover {
          background-position: right center; /* change the direction of the change here */
-         color: #fff;
-         text-decoration: none;
-         transform: translateY(-1px);
-       }
-       .option-shop:active {
+        color: #fff;
+        text-decoration: none;
+        transform: translateY(-1px);
+    }
+      .option-shop:active {
         transform: translateY(2px);
         box-shadow: 0 0.5rem 1rem  #DD5E89;
-        
-       }
-   }
+      }
+
+      
   }
+}
   
