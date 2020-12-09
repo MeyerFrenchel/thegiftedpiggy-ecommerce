@@ -4,7 +4,12 @@
     align-items: center;
     padding: 3px 80px;
     background-image: repeating-linear-gradient(36deg, rgb(252,241,241) 0px, rgb(252,241,241) 19px,transparent 19px, transparent 21px),repeating-linear-gradient(80deg, rgb(252,241,241) 0px, rgb(252,241,241) 19px,transparent 19px, transparent 21px),repeating-linear-gradient(20deg, rgb(252,241,241) 0px, rgb(252,241,241) 19px,transparent 19px, transparent 21px),linear-gradient(100deg, rgb(195,141,210),rgb(250,186,188));
-  }
+  
+    @media only screen and (max-width : 520px) {
+      padding: 10px;
+    }
+}
+
   
   .directory-menu {
     width: 100%;

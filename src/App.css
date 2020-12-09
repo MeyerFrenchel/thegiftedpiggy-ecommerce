@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -7,9 +8,11 @@ body {
     padding: 20px 60px;
     /* background-color: #fcf1f1; */
     background-image: repeating-linear-gradient(36deg, rgb(252,241,241) 0px, rgb(252,241,241) 19px,transparent 19px, transparent 21px),repeating-linear-gradient(80deg, rgb(252,241,241) 0px, rgb(252,241,241) 19px,transparent 19px, transparent 21px),repeating-linear-gradient(20deg, rgb(252,241,241) 0px, rgb(252,241,241) 19px,transparent 19px, transparent 21px),linear-gradient(100deg, rgb(195,141,210),rgb(250,186,188));
-}
-h2 {
-    color: #c38dd2;
+      
+  }
+
+  h2 {
+    color: #c38dd2;    
 }
 
 span {
@@ -27,4 +30,11 @@ body::-webkit-scrollbar {
     background-color: #cd91bd;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 1px solid #cd91bd;  /* creates padding around scroll thumb */
+  }
+
+  @media only screen and (max-width : 520px) {
+    body{
+      padding: 10px;
+    }
+    
   }
