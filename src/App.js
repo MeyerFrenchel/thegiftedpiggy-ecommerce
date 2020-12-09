@@ -19,12 +19,14 @@ import SocialIcons from './components/social/social.component';
 
 
 
+
 class App extends React.Component {
 
   unsubscribeFromAuth = null;
 
   componentDidMount() {
 
+    
     const {setCurrentUser} = this.props;
 
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
@@ -72,6 +74,7 @@ class App extends React.Component {
       
         </Switch> 
         <SocialIcons />
+        
     </div>
   );
 }
